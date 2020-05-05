@@ -1,4 +1,4 @@
-def fibonaci(n):
+def fibonacci(n):
     a=0
     b=1
     count=0
@@ -17,7 +17,7 @@ def fibonaci(n):
             count+=1
 
 num=int(input('énter the number'))
-result=fibonaci(num)
+result=fibonacci(num)
 print(result)
 
 
